@@ -7,7 +7,7 @@ import { ItemList } from "../../components/ItemList/ItemList.jsx";
 
 import "./index.css";
 
-function App() {
+export function App() {
 	const [user, setUser] = useState("");
 	const [currentUser, setCurrentUser] = useState("");
 	const [repos, setRepos] = useState(null);
@@ -75,4 +75,3 @@ function App() {
 	);
 }
 
-export default App;
