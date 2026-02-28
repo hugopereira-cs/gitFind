@@ -1,0 +1,72 @@
+.content {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.background {
+  height: 100vh;
+  position: absolute;
+  left: 0;
+}
+
+.searchInfo {
+  width: 60vw;
+  margin-right: 90px;
+  margin-top: 40px;
+  color: #FFF;
+}
+
+.searchBar {
+  width: 100%;
+}
+
+.searchInfo hr {
+  display: block;
+  width: 92%;
+  min-width: 200px;
+  box-sizing: border-box;
+  border: none;
+  border-top: 1px solid rgba(229, 229, 229, 0.2);
+  margin: 16px 0;
+  padding: 0;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  gap: 16px;
+  align-items: center;
+  margin: 32px 0 24px 0;
+}
+
+.profilePhoto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1px solid #999999;
+}
+
+.profileInfo {
+  color: #999999;
+}
+
+.profileName {
+  margin-bottom: 16px;
+}
+
+.profileName h3 {
+  font-size: 20px;
+}
+
+.profileName span {
+  font-size: 14px;
+}
+
+.repos h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}

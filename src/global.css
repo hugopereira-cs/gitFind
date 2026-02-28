@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Arial;
+}
+
+body {
+  background-color: #1D2128;
+}
+
+hr {
+  display: block;
+  width: 92%;
+  min-width: 200px;
+  box-sizing: border-box;
+  border: none;
+  border-top: 1px solid rgba(229, 229, 229, 0.2);
+  margin: 16px 0;
+  padding: 0;
+}

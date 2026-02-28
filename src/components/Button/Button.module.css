@@ -1,0 +1,18 @@
+.searchBtn {
+  width: 20%;
+  min-width: 116px;
+  border: 1px solid #999999;
+  border-radius: 22px;
+  background: transparent;
+  font-size: 18px;
+  padding: 10px 24px;
+  color: #999999;
+  background-color: #2D333B;
+  transition: 0.5s ease, transform 0.5s ease;
+}
+
+.searchBtn:hover {
+  background-color: #2D333B7F;
+  cursor: pointer;
+  transform: scale(1.01);
+}
