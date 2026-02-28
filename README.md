@@ -1,16 +1,56 @@
-# React + Vite
+Copiar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# GitFind
 
-Currently, two official plugins are available:
+Aplicação web para buscar perfis e repositórios do GitHub pelo nome de usuário.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## React Compiler
+- Busca de usuários pelo username do GitHub (`@username`)
+- Exibição de foto de perfil, nome, login e bio do usuário
+- Listagem dos repositórios públicos com nome e descrição
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias
 
-## Expanding the ESLint configuration
+- [React 19](https://react.dev/)
+- [Vite 7](https://vite.dev/)
+- CSS Modules
+- [GitHub REST API](https://docs.github.com/en/rest)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como executar
+
+**Pré-requisitos:** Node.js `^20.19.0` ou `>=22.12.0`
+
+```bash
+# Instalar dependências
+npm install
+
+# Iniciar servidor de desenvolvimento
+npm run dev
+
+# Build para produção
+npm run build
+
+# Pré-visualizar build
+npm run preview
+
+# Verificar lint
+npm run lint
+```
+
+## Estrutura do projeto
+
+```
+src/
+├── assets/
+│   └── background.png
+├── components/
+│   ├── Button/
+│   ├── Header/
+│   ├── Input/
+│   └── ItemList/
+├── pages/
+│   └── Home/
+├── global.css
+└── main.jsx
+```
