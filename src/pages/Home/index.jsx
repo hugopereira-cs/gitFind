@@ -9,7 +9,7 @@ import "./index.css";
 
 function App() {
 	const [user, setUser] = useState("");
-	const [currentUser, setCurrentUser] = useState('');
+	const [currentUser, setCurrentUser] = useState("");
 	const [repos, setRepos] = useState(null);
 
 	const handleGetData = async () => {
